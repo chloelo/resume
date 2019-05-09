@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>資料確認</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+
+<body>
+    <header class="head_data">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <a href="#" title="台灣微軟-未來生涯體驗計劃" class="logo">
+                        <img src="images/logo_header.png" alt="台灣微軟-未來生涯體驗計劃"></a>
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <h2 class="page_title">報名實習</h2>
+                    <a href="login.htm" class="signOut">登出系統</a>
+                    <br clear="both">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <article class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="h1style01">資料確認</h1>
+                </div>
+                <div class="col-sm-6">
+                    <div class="stepLine">
+                        <img src="images/stepLine6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- title end-->
+            <!-- part1 START-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                <div class="col-md-12">
+                    <h2 class="h2style01">履歷資料狀態：</h2></div>
+            </div>
+                </div>
+                <div class="col-md-12">
+                    <span class="table--inputbox01">
+                        <select name="CVstatus" class="tdBg" onChange="location = this.options[this.selectedIndex].value;">
+                            <option value="resume-final.htm">履歷暫時保存，尚未完成報名 (提醒：履歷確認送出才有面試機會，報名於 4/30 截止，早報名早面試！)</option>
+                            <option value="resume-final2.htm" selected>資料確認送出 (進入審查程序，無法再修改履歷)</option>
+                            </select>
+                    </span>
+                </div>
+            </div>
+            <!-- part1 END-->
+            <hr>
+            <ul class="btnWrap02">
+                <li><a class="btnStyle01 btn_colorBule positionStyle01 btn_lastPage" href="resume-view.htm">上一步</a></li>
+                <li><a class="btnStyle01 btn_colorBule positionStyle01 btn_nextPage" href="index-ready.htm">資料送出</a></li>
+            </ul>
+        </article>
+    </section>
+    <footer class="foot_area bgStyle01">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 textmargin01"> &copy; Microsoft Corporation. 著作權所有，並保留一切權利。</div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="http://www.microsoft.com/privacystatement/zh-tw/core/default.aspx" title="隱私權聲明" target="_blank">隱私權聲明</a></li>
+                        <li><a href="http://www.microsoft.com/taiwan/misc/cpyright.htm" title="使用規定" target="_blank">使用規定</a></li>
+                        <li><a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/zh-tw.mspx" title="商標" target="_blank">商標</a></li>
+                        <li>
+                            <a href="http://www.microsoft.com/taiwan/" title="台灣微軟" target="_blank"><img src="images/ms_logo.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

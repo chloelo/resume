@@ -1,0 +1,47 @@
+html,body{
+	background-color: #3a3939;
+	margin:0;padding:0;
+    width:100%;
+	height: 100%;
+	font-family:Segoe UI,Arial,Microsoft JhengHei;
+	font-size: 18px;
+}
+.wrap{
+	
+	margin: 5% auto;
+	background-color: #fff;
+	padding: 2% 5% 5% 5%;
+	border-radius: 30px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 1.2em;
+}
+h2{
+	border-bottom: 5px solid #ffc600;
+	padding-bottom: 0.5rem;
+	text-align: right;
+}
+h4{
+	margin: 1.5rem 0 0.8rem 0;
+}
+ul{
+	padding-left: 0;
+	list-style: none;
+	
+}
+li{
+	line-height: 1.8rem;
+}
+.dec{
+	border-bottom: 1px dotted #dadada;
+	padding-bottom: 0.5rem;
+}
+
+.dec li:before{
+	content: '\25E9';
+    font-family: 'Code2000';
+    font-size: calc(12px + 0.49vw);
+    color: #0084ff;
+    padding-right: 7px;
+}

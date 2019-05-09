@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <title>履歷系統主面板</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <style type="text/css">
+    body, html{
+        min-width: 1920px;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="head_data">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <a title="台灣微軟-未來生涯體驗計劃" class="logo">
+                        <img src="images/logo_header.png" alt="台灣微軟-未來生涯體驗計劃"></a>
+                </div>
+                <div class="col-xs-9">
+                    <h2 class="page_title">履歷管理系統</h2>
+                    <a href="login.htm" class="signOut graybtnBasic">　系　統　登　出　</a>
+                    <br clear="both">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <article class="container">
+            <div class="row">
+                <div class="col-xs-5">
+                    <h1 class="h1style01">履歷系統主面板 </h1>
+                </div>
+                <div class="col-xs-7">
+                    <a href="index.htm" class="graybtnBasic btn_toMain">回管理系統主面板</a>
+                </div>
+            </div>
+            <div class="row textmargin03">
+                <div class="col-xs-3">
+                    <span class="table--inputname _lightset01">面試階段：(北部) 書面/電話審核</span>
+                </div>
+                <div class="col-xs-3">
+                    <span class="table--inputname _lightset01">面試職缺：</span>
+                    <span class="table--inputbox01 boxpadding01">
+                    <select name="interviewJobs" class="tdBg">
+                            <option value="allJobs">全職缺</option>
+                            <option value="assistant">行政助理</option>
+                    </select>
+                   </span>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article class="fullArea">
+            <div class="row">
+                <div class="col-xs-12">
+                    <table border="0" class="cvTable01 tbWidth02" align="left" cellpadding="0" cellspacing="2">
+                        <tr>
+                            <th width="60">性別</th>
+                            <th width="104">應徵職缺</th>
+                            <th width="209" class="bgStyle10">階段</th>
+                            <th width="209" class="bgStyle10">面試</th>
+                            <th width="94" class="bgStyle10">　</th>
+                            <th width="124" class="bgStyle10">最後編輯者</th>
+                            <th width="124" class="thIcon_bg01 bgStyle10">編輯日期</th>
+                            <th width="94">評定</th>
+                            <th width="124">姓名</th>
+                            <th width="124">行動電話</th>
+                            <th width="104">目前年級</th>
+                            <th>目前學校</th>
+                            <th>目前科系</th>
+                            <th width="124" class="thIcon_bg01">報名日期</th>
+                            <th class="thIcon_bg01">確認日期</th>
+                        </tr>
+                        <tr>
+                            <td>女</td>
+                            <td>行政助理</td>
+                            <td class="bgStyle11"><span class="table--inputbox01 boxpadding09">
+                                <select name="parts" class="tdBg">
+                                    <option value="part_01">(北部) 書面/電話審核</option>
+                                    <option value="part_02">(中部) 書面/電話審核</option>
+                                    <option value="part_03">(北部) 一階派遣審核</option>
+                                    <option value="part_04">(中部) 一階派遣審核</option>
+                                    <option value="part_05">(南部) 一階派遣審核</option>
+                                </select>
+                                </span>
+                            </td>
+                            <td class="bgStyle11"><span class="table--inputbox01 boxpadding09">
+                                <select name="jobTitle" class="tdBg">
+                                <option value="noDate">尚未排定面試時間</option>
+                                        <option value="1504011300">2015-04-01 13:00</option>
+                                        <option value="1504011400">2015-04-01 14:00</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td class="bgStyle11">
+                                <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">修改</a></span>
+                            </td>
+                            <td class="bgStyle11">Randy</td>
+                            <td class="bgStyle11">2015-05-15</td>
+                            <td> <span class="btnWrap01"><a href="assessment.htm" class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">評定</a></span></td>
+                            <td class="tdIcon_bg01"><a href="resume-preview.htm">陳壹貳</a></td>
+                            <td>0900111223</td>
+                            <td>大二</td>
+                            <td>○ ○ ○ ○ 大學</td>
+                            <td>○ ○ 學系</td>
+                            <td>2015-04-28</td>
+                            <td>2015-04-29</td>
+                        </tr>
+                        <tr>
+                            <td>女</td>
+                            <td>行政助理</td>
+                            <td class="bgStyle12"><span class="table--inputbox01 boxpadding09">
+                                <select name="parts" class="tdBg">
+                                    <option value="part_01">(北部) 書面/電話審核</option>
+                                    <option value="part_02">(中部) 書面/電話審核</option>
+                                    <option value="part_03">(北部) 一階派遣審核</option>
+                                    <option value="part_04">(中部) 一階派遣審核</option>
+                                    <option value="part_05">(南部) 一階派遣審核</option>
+                                </select>
+                                </span>
+                            </td>
+                            <td class="bgStyle12"><span class="table--inputbox01 boxpadding09">
+                                <select name="jobTitle" class="tdBg">
+                                <option value="noDate">尚未排定面試時間</option>
+                                        <option value="1504011300">2015-04-01 13:00</option>
+                                        <option value="1504011400">2015-04-01 14:00</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td class="bgStyle12">
+                                <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">修改</a></span>
+                            </td>
+                            <td class="bgStyle12">Randy</td>
+                            <td class="bgStyle12">2015-05-15</td>
+                            <td> <span class="btnWrap01"><a href="assessment.htm" class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">評定</a></span></td>
+                            <td class="tdIcon_bg01"><a href="resume-preview.htm">陳壹貳</a></td>
+                            <td>0900111223</td>
+                            <td>大二</td>
+                            <td>○ ○ ○ ○ 大學</td>
+                            <td>○ ○ 學系</td>
+                            <td>2015-04-28</td>
+                            <td>2015-04-29</td>
+                        </tr>
+                        <tr>
+                            <td>女</td>
+                            <td>行政助理</td>
+                            <td class="bgStyle11"><span class="table--inputbox01 boxpadding09">
+                                <select name="parts" class="tdBg">
+                                    <option value="part_01">(北部) 書面/電話審核</option>
+                                    <option value="part_02">(中部) 書面/電話審核</option>
+                                    <option value="part_03">(北部) 一階派遣審核</option>
+                                    <option value="part_04">(中部) 一階派遣審核</option>
+                                    <option value="part_05">(南部) 一階派遣審核</option>
+                                </select>
+                                </span>
+                            </td>
+                            <td class="bgStyle11"><span class="table--inputbox01 boxpadding09">
+                                <select name="jobTitle" class="tdBg">
+                                <option value="noDate">尚未排定面試時間</option>
+                                        <option value="1504011300">2015-04-01 13:00</option>
+                                        <option value="1504011400">2015-04-01 14:00</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td class="bgStyle11">
+                                <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">修改</a></span>
+                            </td>
+                            <td class="bgStyle11">Grace</td>
+                            <td class="bgStyle11">2015-05-15</td>
+                            <td> <span class="btnWrap01"><a href="assessment.htm" class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">評定</a></span></td>
+                            <td class="tdIcon_bg01"><a href="resume-preview.htm">陳壹貳</a></td>
+                            <td>0900111223</td>
+                            <td>大二</td>
+                            <td>○ ○ ○ ○ 大學</td>
+                            <td>○ ○ 學系</td>
+                            <td>2015-04-28</td>
+                            <td>2015-04-29</td>
+                        </tr>
+                        <tr>
+                            <td>女</td>
+                            <td>行政助理</td>
+                            <td class="bgStyle12"><span class="table--inputbox01 boxpadding09">
+                                <select name="parts" class="tdBg">
+                                    <option value="part_01">(北部) 書面/電話審核</option>
+                                    <option value="part_02">(中部) 書面/電話審核</option>
+                                    <option value="part_03">(北部) 一階派遣審核</option>
+                                    <option value="part_04">(中部) 一階派遣審核</option>
+                                    <option value="part_05">(南部) 一階派遣審核</option>
+                                </select>
+                                </span>
+                            </td>
+                            <td class="bgStyle12"><span class="table--inputbox01 boxpadding09">
+                                <select name="jobTitle" class="tdBg">
+                                <option value="noDate">尚未排定面試時間</option>
+                                        <option value="1504011300">2015-04-01 13:00</option>
+                                        <option value="1504011400">2015-04-01 14:00</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td class="bgStyle12">
+                                <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">修改</a></span>
+                            </td>
+                            <td class="bgStyle12">Grace</td>
+                            <td class="bgStyle12">2015-05-15</td>
+                            <td> <span class="btnWrap01"><a href="assessment.htm" class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">評定</a></span></td>
+                            <td class="tdIcon_bg01"><a href="resume-preview.htm">陳壹貳</a></td>
+                            <td>0900111223</td>
+                            <td>大二</td>
+                            <td>○ ○ ○ ○ 大學</td>
+                            <td>○ ○ 學系</td>
+                            <td>2015-04-28</td>
+                            <td>2015-04-29</td>
+                        </tr>
+                         <tr>
+                            <td>女</td>
+                            <td>行政助理</td>
+                            <td class="bgStyle11"><span class="table--inputbox01 boxpadding09">
+                                <select name="parts" class="tdBg">
+                                    <option value="part_01">(北部) 書面/電話審核</option>
+                                    <option value="part_02">(中部) 書面/電話審核</option>
+                                    <option value="part_03">(北部) 一階派遣審核</option>
+                                    <option value="part_04">(中部) 一階派遣審核</option>
+                                    <option value="part_05">(南部) 一階派遣審核</option>
+                                </select>
+                                </span>
+                            </td>
+                            <td class="bgStyle11"><span class="table--inputbox01 boxpadding09">
+                                <select name="jobTitle" class="tdBg">
+                                <option value="noDate">尚未排定面試時間</option>
+                                        <option value="1504011300">2015-04-01 13:00</option>
+                                        <option value="1504011400">2015-04-01 14:00</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td class="bgStyle11">
+                                <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">修改</a></span>
+                            </td>
+                            <td class="bgStyle11">Grace</td>
+                            <td class="bgStyle11">2015-05-15</td>
+                            <td> <span class="btnWrap01"><a href="assessment.htm" class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">評定</a></span></td>
+                            <td class="tdIcon_bg01"><a href="resume-preview.htm">陳壹貳</a></td>
+                            <td>0900111223</td>
+                            <td>大二</td>
+                            <td>○ ○ ○ ○ 大學</td>
+                            <td>○ ○ 學系</td>
+                            <td>2015-04-28</td>
+                            <td>2015-04-29</td>
+                        </tr>
+                        <tr>
+                            <td>女</td>
+                            <td>行政助理</td>
+                            <td class="bgStyle12"><span class="table--inputbox01 boxpadding09">
+                                <select name="parts" class="tdBg">
+                                    <option value="part_01">(北部) 書面/電話審核</option>
+                                    <option value="part_02">(中部) 書面/電話審核</option>
+                                    <option value="part_03">(北部) 一階派遣審核</option>
+                                    <option value="part_04">(中部) 一階派遣審核</option>
+                                    <option value="part_05">(南部) 一階派遣審核</option>
+                                </select>
+                                </span>
+                            </td>
+                            <td class="bgStyle12"><span class="table--inputbox01 boxpadding09">
+                                <select name="jobTitle" class="tdBg">
+                                <option value="noDate">尚未排定面試時間</option>
+                                        <option value="1504011300">2015-04-01 13:00</option>
+                                        <option value="1504011400">2015-04-01 14:00</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td class="bgStyle12">
+                                <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">修改</a></span>
+                            </td>
+                            <td class="bgStyle12">Grace</td>
+                            <td class="bgStyle12">2015-05-15</td>
+                            <td> <span class="btnWrap01"><a href="assessment.htm" class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">評定</a></span></td>
+                            <td class="tdIcon_bg01"><a href="resume-preview.htm">陳壹貳</a></td>
+                            <td>0900111223</td>
+                            <td>大二</td>
+                            <td>○ ○ ○ ○ 大學</td>
+                            <td>○ ○ 學系</td>
+                            <td>2015-04-28</td>
+                            <td>2015-04-29</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+           <div class="row">
+                <div class="col-xs-12">
+                    <p class="pStyle01 textmargin03"><a href="#">第一頁</a>　<a href="#">上一頁</a>　第 1 / 1 頁 (6 位)　<a href="#">下一頁</a>　<a href="#">最末頁</a> </p>
+                </div>
+            </div> 
+        </article>
+    </section>
+</body>
+
+</html>

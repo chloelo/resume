@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <title>履歷表評定</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <style type="text/css">
+    body, html{
+        min-width: 1344px;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="head_data">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <a title="台灣微軟-未來生涯體驗計劃" class="logo">
+                        <img src="images/logo_header.png" alt="台灣微軟-未來生涯體驗計劃"></a>
+                </div>
+                <div class="col-xs-9">
+                    <h2 class="page_title">履歷管理系統</h2>
+                    <a href="login.htm" class="signOut graybtnBasic">　系　統　登　出　</a>
+                    <br clear="both">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <article class="container">
+            <div class="row">
+                <div class="col-xs-5">
+                    <h1 class="h1style01">履歷表 </h1>
+                </div>
+                <div class="col-xs-7">
+                    <a href="index.htm" class="graybtnBasic btn_toMain">回管理系統主面板</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-5">
+                <h2 class="h2style01">評定： </h2>
+                </div>
+            </div>
+             </article>
+    </section>
+     <section>
+        <article class="contentWrap01 fullArea">
+            <div class="row">
+                <div class="col-xs-12">
+                    <table border="0" class="cvTable01 tbWidth03 edit_assessmemtTB" align="left" cellpadding="0" cellspacing="2">
+                        <tr>
+                            <th width="70">編號</th>
+                            <th width="188">建立時間</th>
+                            <th width="128">評定者</th>
+                            <th width="118">階段</th>
+                            <th width="70">態度</th>
+                            <th width="70">專業</th>
+                            <th width="70">表達</th>
+                            <th width="368">評語</th>
+                            <th>功能列</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>2015-04-15 16:47</td>
+                            <td>MPteam</td>
+                            <td><span class="table--inputbox01 boxpadding09">
+                                <select name="level" class="tdBg">
+                                        <option value="level01">審核中</option>
+                                        <option value="level02">一階面試</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td>
+                                <span class="table--inputbox01 boxpadding09">
+                                <select name="level" class="tdBg">
+                                        <option value="level01">0</option>
+                                        <option value="level02">1</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td>
+                                <span class="table--inputbox01 boxpadding09">
+                                <select name="level" class="tdBg">
+                                        <option value="level01">0</option>
+                                        <option value="level02">1</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td>
+                                <span class="table--inputbox01 boxpadding09">
+                                <select name="level" class="tdBg">
+                                        <option value="level01">0</option>
+                                        <option value="level02">1</option>
+                                </select>
+                               </span>
+                            </td>
+                            <td class="comment">
+                             <span class="table--inputbox01 boxpadding09">
+                               <textarea name="" class="tdBg HeightStyle03"></textarea></span>
+                            </td>
+                            <td class="assessmemtBtns">
+
+                            <span class="btnWrap01"><a href="assessment.htm" class="btnStyle02 btn_colorYellow btn_cv">完成編輯</a></span>
+                             <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_del">刪除</a></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2015-04-22 14:35</td>
+                            <td>MPteam</td>
+                            <td>一階面試</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="comment">
+                                <ul>
+                                 <li>剩餘學分數：還不知道研究所課程</li>
+                                 <li>語文能力：多益675分</li>
+                                </ul> 
+                            </td>
+                            <td class="assessmemtBtns">
+                            <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix">修改</a></span>
+                             <span class="btnWrap01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_del">刪除</a></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row textmargin03">
+                <div class="col-xs-9">
+                <div class="row">
+                <div class="col-xs-3">
+                    <span class="table--inputname _lightset01">階段：</span>
+                    <span class="table--inputbox01 boxpadding05">
+                    <select name="interview" class="tdBg">
+                            <option value="interview01">一階面試</option>
+                            <option value="interview02">二階面試</option>
+                    </select>
+                   </span>
+                </div>
+                <div class="col-xs-3">
+                    <span class="table--inputname _lightset01">態度表現：</span>
+                    <span class="table--inputbox01 boxpadding01">
+                    <select name="attitude" class="tdBg">
+                            <option value="attitude01">0</option>
+                            <option value="attitude02">1</option>
+                            <option value="attitude03">2</option>
+                    </select>
+                   </span>
+                </div>
+               <div class="col-xs-3">
+                    <span class="table--inputname _lightset01">專業能力：</span>
+                    <span class="table--inputbox01 boxpadding01">
+                    <select name="pro" class="tdBg">
+                            <option value="pro01">一階面試</option>
+                            <option value="pro02">二階面試</option>
+                    </select>
+                   </span>
+                </div>
+                <div class="col-xs-3">
+                    <span class="table--inputname _lightset01">表達能力：</span>
+                    <span class="table--inputbox01 boxpadding01">
+                    <select name="express" class="tdBg">
+                            <option value="express01">0</option>
+                            <option value="express02">1</option>
+                            <option value="express03">2</option>
+                    </select>
+                   </span>
+                </div> 
+                    
+                   </div>
+                </div>
+              
+            </div>
+            <div class="row textmargin01">
+                <div class="col-xs-12">
+                    <span class="table--inputbox01"><textarea name="" class="tdBg HeightStyle02"></textarea></span>
+                </div>
+            </div>
+             <ul class="btnWrap04 textmargin05">
+                <li class="spanStyle01"><a class="btnStyle01 btn_colorBule btn_tdBtns btn_td_fix" href="assessment2.htm">新增評語</a></li>
+            </ul>
+        </article>
+    </section>
+</body>
+
+</html>

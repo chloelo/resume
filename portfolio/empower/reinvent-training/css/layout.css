@@ -1,0 +1,374 @@
+@charset "UTF-8";
+body, html, button, input, select, textarea {
+  font-family: "SegoeLight", "Segoe UI", Segoe, Arial, Verdana, sans-serif, '微軟正黑體', Microsoft JhengHei; }
+
+.pos-r, .menu li {
+  position: relative; }
+
+.pos-a {
+  position: absolute; }
+
+.pos-f, a.toggle-nav, header, .logo {
+  position: fixed; }
+
+._d-b, .logo {
+  display: block; }
+
+._d-ib, .btn, .holder_zone .holder_conts p strong {
+  display: inline-block; }
+
+._d-n {
+  display: none; }
+
+._f-l, .menu li {
+  float: left; }
+
+._f-r {
+  float: right; }
+
+._m0p0, body {
+  margin: 0;
+  padding: 0; }
+
+._m40 {
+  margin: 40px 20px; }
+
+._mb80 {
+  margin-bottom: 80px; }
+
+._ta-c, .btn, .course_zone .course_conts, .holder_zone .holder_conts p {
+  text-align: center; }
+
+._ta-r {
+  text-align: right; }
+
+._ta-l {
+  text-align: left; }
+
+._flex, .course_zone .course_conts .course_list, .course_zone .course_conts .course_list p:nth-child(odd), .holder_zone {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex; }
+
+._rwdimg, .teacher_zone img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
+._clear_li, nav li, .info_zone .info_conts ol {
+  list-style-type: none; }
+
+._fz_calc01, body {
+  font-size: calc(18px + 0.49vw); }
+
+._fz_calc02 {
+  font-size: calc(30px + 0.49vw); }
+
+._fz_calc03, .teacher_zone h4, .info_zone .info_conts h3 {
+  font-size: calc(26px + 0.49vw); }
+
+._pd01, .teacher_zone, .info_zone, .holder_zone {
+  padding: 40px; }
+
+._pd02, .teacher_zone .teacher_conts, .course_zone .course_conts {
+  padding: 0 20px; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+body {
+  width: 100%;
+  height: 100%;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%; }
+
+.kv_zone {
+  background-image: url(../images/coverbg01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center; }
+
+.kv-title {
+  text-indent: -9999;
+  height: 85vh;
+  padding: 10em 50% 40px 40px; }
+  .kv-title img {
+    max-width: 100%; }
+
+.kv-title h1 {
+  font-size: 0; }
+
+a.toggle-nav {
+  padding: 0 0.5em;
+  right: 0em;
+  font-size: 36px;
+  z-index: 5;
+  display: none; }
+  a.toggle-nav:link {
+    color: #000; }
+  a.toggle-nav:visited {
+    color: #000; }
+  a.toggle-nav:hover {
+    color: rgba(0, 0, 0, 0.6); }
+  a.toggle-nav:active {
+    color: rgba(0, 0, 0, 0.6); }
+
+header {
+  background-color: rgba(255, 255, 255, 0.85);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3em; }
+
+header._smallMode {
+  height: 2.5em;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  header._smallMode li {
+    padding-top: 15px; }
+
+.menu {
+  margin: 0;
+  padding-left: calc(230px + 0.52vw); }
+
+.menu._smallMode {
+  padding-left: calc(150px + 0.52vw); }
+
+.menu li {
+  padding: 20px; }
+
+.menu li a {
+  color: #032752; }
+  .menu li a:hover {
+    color: #b01f24; }
+
+.main_intro {
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 1%, white 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 1%, white 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.75)), color-stop(1%, rgba(255, 255, 255, 0.75)), to(white));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 1%, white 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 1%, white 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */ }
+
+.logo {
+  top: 15px;
+  left: 40px;
+  z-index: 2; }
+
+.btn {
+  padding: 15px 30px;
+  background-color: rgba(3, 39, 82, 0.5);
+  color: #52ffff;
+  border: 5px solid #52ffff;
+  font-weight: bold; }
+  .btn:hover {
+    color: #fff; }
+
+.logo._smallMode {
+  width: calc(100px + 0.52vw); }
+
+.teacher_zone {
+  background-color: #dbdcdc;
+  border-bottom: 20px solid #b01f24; }
+  .teacher_zone .teacher_conts {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 25%;
+    flex: 1 25%; }
+
+.course_zone {
+  padding: 40px 40px 80px 40px;
+  border-bottom: 20px solid #103768; }
+  .course_zone .course_conts {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 50%;
+    flex: 1 50%; }
+    .course_zone .course_conts h3 {
+      background-color: #103768;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      padding: 0.5em 0;
+      font-size: 46px;
+      line-height: 0.9em;
+      font-weight: normal;
+      margin: 0; }
+    .course_zone .course_conts .course_list {
+      border-bottom: 1px solid #fff; }
+      .course_zone .course_conts .course_list p {
+        font-size: 22px;
+        margin: 0;
+        padding: 20px; }
+        .course_zone .course_conts .course_list p span.td-ul {
+          display: inline-block;
+          margin-left: 1em; }
+          .course_zone .course_conts .course_list p span.td-ul span.td-li-ch {
+            display: block;
+            text-indent: -0.9em; }
+        .course_zone .course_conts .course_list p:nth-child(odd) {
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-flex: 1;
+          -ms-flex: 1 25%;
+          flex: 1 25%;
+          background-color: #385577;
+          color: #fff; }
+        .course_zone .course_conts .course_list p:nth-child(even) {
+          -webkit-box-flex: 1;
+          -ms-flex: 1 75%;
+          flex: 1 75%;
+          background-color: #f4f4f4; }
+
+.info_zone {
+  background-color: #dbdcdc;
+  border-bottom: 20px solid #b01f24; }
+  .info_zone .info_conts {
+    padding: 20px 0;
+    border-bottom: 2px dashed #a5afb9; }
+    .info_zone .info_conts h3 {
+      color: #103768;
+      margin-top: 10px; }
+    .info_zone .info_conts li {
+      margin-bottom: 0.8em; }
+    .info_zone .info_conts ol {
+      padding-left: 0;
+      margin-left: 1.9em; }
+      .info_zone .info_conts ol li {
+        text-indent: -1.9em; }
+
+.holder_zone {
+  margin: 0 auto;
+  width: 90%; }
+  .holder_zone .holder_conts {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 25%;
+    flex: 1 25%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .holder_zone .holder_conts p strong {
+      margin: 1em; }
+
+.title_dec01 {
+  background-image: url(../images/title_dec.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 5px; }
+
+.bottom_dec01 {
+  border-bottom: 12px solid #fff; }
+
+.bottom_dec02 {
+  border-bottom: 12px solid #b4b4b5; }
+
+@media (max-width: 1100px) {
+  .logo {
+    width: calc(100px + 0.52vw); }
+  .kv-title {
+    height: 60vh;
+    padding-top: 7em; }
+  .teacher_zone ._flex, .teacher_zone .course_zone .course_conts .course_list, .course_zone .course_conts .teacher_zone .course_list, .teacher_zone .course_zone .course_conts .course_list p:nth-child(odd), .course_zone .course_conts .course_list .teacher_zone p:nth-child(odd), .teacher_zone .holder_zone {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .teacher_zone ._flex .teacher_conts, .teacher_zone .course_zone .course_conts .course_list .teacher_conts, .course_zone .course_conts .teacher_zone .course_list .teacher_conts, .course_zone .course_conts .course_list .teacher_zone p:nth-child(odd) .teacher_conts, .teacher_zone .holder_zone .teacher_conts {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 45%;
+      flex: 1 45%;
+      margin-bottom: 40px; }
+  .course_zone ._flex, .course_zone .course_conts .course_list, .course_zone .course_conts .course_list p:nth-child(odd), .course_zone .holder_zone {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .course_zone ._flex .course_conts, .course_zone .course_conts .course_list .course_conts, .course_zone .holder_zone .course_conts {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+      flex: 1 100%;
+      margin-bottom: 80px; }
+  .holder_zone {
+    width: 95%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .holder_zone .holder_conts {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 50%;
+      flex: 1 50%; }
+  header {
+    height: 2.5em; }
+  a.toggle-nav {
+    display: block; }
+  .menu {
+    max-height: 0;
+    -webkit-transition: max-height 0.25s ease-out;
+    -o-transition: max-height 0.25s ease-out;
+    transition: max-height 0.25s ease-out;
+    overflow: hidden;
+    background-color: #2c2c2c;
+    padding-left: 0;
+    position: absolute;
+    top: 2.5em;
+    right: 0; }
+    .menu li {
+      float: none;
+      display: block;
+      padding: 15px 50px 10px 30px;
+      border-bottom: 1px solid #4a4848; }
+      .menu li:last-child {
+        border-bottom: none; }
+      .menu li a {
+        color: #fff; }
+        .menu li a:hover {
+          color: #f4ce21; }
+  .menu._smallMode {
+    padding-left: 0; }
+  .menu.responsive {
+    max-height: 300px;
+    -webkit-transition: max-height 0.25s ease-in;
+    -o-transition: max-height 0.25s ease-in;
+    transition: max-height 0.25s ease-in; } }
+
+@media (max-width: 768px) {
+  .kv_zone {
+    background-position: 70% 0%; }
+  .kv-title {
+    height: 70vh;
+    padding-right: 40px;
+    background: -webkit-linear-gradient(bottom left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 1%, rgba(0, 0, 0, 0.15) 100%);
+    background: -o-linear-gradient(bottom left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 1%, rgba(0, 0, 0, 0.15) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, from(rgba(0, 0, 0, 0.65)), color-stop(1%, rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.15)));
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 1%, rgba(0, 0, 0, 0.15) 100%);
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#26000000',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+    .kv-title img {
+      max-width: 100%; }
+  .teacher_zone ._flex .teacher_conts, .teacher_zone .course_zone .course_conts .course_list .teacher_conts, .course_zone .course_conts .teacher_zone .course_list .teacher_conts, .course_zone .course_conts .course_list .teacher_zone p:nth-child(odd) .teacher_conts, .teacher_zone .holder_zone .teacher_conts {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 100%;
+    flex: 1 100%; }
+  .course_zone ._flex .course_conts .course_list, .course_zone .course_conts .course_list .course_conts .course_list, .course_zone .holder_zone .course_conts .course_list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .course_zone ._flex .course_conts .course_list p, .course_zone .course_conts .course_list .course_conts .course_list p, .course_zone .holder_zone .course_conts .course_list p {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+      flex: 1 100%; }
+      .course_zone ._flex .course_conts .course_list p:nth-child(odd), .course_zone .course_conts .course_list .course_conts .course_list p:nth-child(odd), .course_zone .holder_zone .course_conts .course_list p:nth-child(odd) {
+        margin-top: 20px; }
+  .holder_zone {
+    width: 100%; }
+    .holder_zone .holder_conts {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+      flex: 1 100%; }
+      .holder_zone .holder_conts p strong {
+        display: block; } }
